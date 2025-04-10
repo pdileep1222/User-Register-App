@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register page</title>
+<style type="text/css">
+ body{
+      background-color:black;
+      }
+i{
+   font-size:20px;
+   color:yellow;
+}
+input {
+        border-style:double;
+        border-color:cyan;
+        color:green;
+        background-color:pink;
+        border-radius:10px;
+      }
+  .su{
+       border-color:yellow;
+       border-style:dotted;
+       background-color:red;
+       font-size:20px;
+      }
+	  
+div{
+     margin-left:450px;
+	 margin-top:50px;
+	 padding: 20px;
+	 font-size:35px;
+	 border-style:solid;
+	 border-color:green;
+	 box-shadow:2px 4px 2px white;
+	 width:320px;
+   }
+</style>
+</head>
+<body>
+<div>
+<form action="reg" method="post">
+<i>UserName</i><input type="text" name="uname" placeholder="Enter the Username"required><br>
+<i>Password</i><input type="password" name="pword" placeholder="Enter the password" required><br>
+<i>FirstName</i><input type="text" name="fname" placeholder="Enter the FirstName"><br>
+<i>LastName</i><input type="text" name="lname" placeholder="Enter the LastName"><br>
+<i>Address</i><input type="text" name="addr" placeholder="Enter the address"><br>
+<i>MailId</i><input type="text" name="mid" placeholder="Enter the MailId"><br>
+<i>PhoneNo</i><input type="text" name="phno" placeholder="Enter the PhoneNo" pattern="{1-9}[10]"><br>
+&nbsp&nbsp<input type="submit" value="Register" class="su"> &nbsp&nbsp<input type="reset" value="Clear" class="su">
+</form>
+</div>
+</body>
+</html>
