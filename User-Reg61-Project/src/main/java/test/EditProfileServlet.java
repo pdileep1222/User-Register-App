@@ -19,6 +19,7 @@ public class EditProfileServlet extends HttpServlet
 		 String fName = c[0].getValue();
 		 req.setAttribute("name", fName);
 		 req.getRequestDispatcher("EditProfile.jsp").forward(req, res);
+		 
 	 }
   }
 }
